@@ -9,7 +9,7 @@ const Banner = () => {
 
     return (
         <div className='bg-image relative' id="home-section">
-            <div className='arrowOne'></div>
+            <div className='arrowOne veranimation'></div>
             <div className='radial-banner hidden lg:block'></div>
             <ModalVideo channel='youtube' isOpen={isOpen} videoId="1YyAzVmP9xQ" onClose={() => setOpen(false)} />
 
@@ -17,26 +17,28 @@ const Banner = () => {
 
                 <div className='height-work'>
                     <div className='grid grid-cols-1 lg:grid-cols-12 my-16'>
-                        <div className='arrowTwo'></div>
+                        <div className='arrowTwo veranimation'></div>
                         <div className='col-span-7'>
                             <h1 className="text-4xl lg:text-7xl font-bold mb-5 text-white md:4px md:text-start text-center">
                                 FULLY-BUSINESS  <br /> ORIENTED APP
                             </h1>
                             <p className='text-white md:text-lg font-normal mb-10 md:text-start text-center'>Join our vibrant community and revolutionize <br /> the way you do business</p>
                             <div className='flex align-middle justify-center md:justify-start'>
-                                <button className='text-xl font-semibold text-white py-4 px-6 lg:px-12 navbutton mr-6'>Get Started</button>
+                                <button className='text-xl font-semibold text-white py-4 px-6 lg:px-12 navbutton scaleEffect mr-6'>Get Started</button>
                                 <button onClick={() => setOpen(true)} className='bg-transparent flex justify-center items-center text-white'><Image src={'/images/Banner/playbutton.svg'} alt="button-image" className='mr-3' width={47} height={47} />How it work</button>
                             </div>
                         </div>
 
                         <div className='col-span-5 lg:-m-48'>
-                            <div className='arrowThree'></div>
-                            <div className='arrowFour'></div>
-                            <div className='arrowFive'></div>
+                            <div className='arrowThree horianimation'></div>
+                            <div className='arrowFour horianimation'></div>
+                            <div className='arrowFive horianimation'></div>
+                            <div className="dotted-circle">
                             <Image src="/images/Banner/banner-2.png" alt="nothing" width={1013} height={760} />
-                            <div className='arrowSix'></div>
-                            <div className='arrowSeven'></div>
-                            <div className='arrowEight'></div>
+                            </div>
+                            <div className='arrowSix horianimation'></div>
+                            <div className='arrowSeven horianimation'></div>
+                            <div className='arrowEight horianimation'></div>
                         </div>
 
                     </div>

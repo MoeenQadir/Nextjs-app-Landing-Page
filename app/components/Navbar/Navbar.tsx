@@ -37,16 +37,20 @@ const Navbar = () => {
                             {/* LOGO */}
 
                             <div className="flex flex-shrink-0 items-center">
+                                <Link href={"/"}>
                                 <img
-                                    className="block h-10 w-20px lg:hidden"
+                                    className="block h-10 cursor-pointer w-20px scaleEffect lg:hidden"
                                     src={'/images/Logo/logo.png'}
                                     alt="Crypto-Logo"
                                 />
+                            </Link>
+                                <Link href={"/"}>
                                 <img
-                                    className="hidden h-28 w-64 lg:block"
+                                    className="hidden cursor-pointer h-28 w-64 scaleEffect lg:block"
                                     src={'/images/Logo/logo.png'}
                                     alt="Crypto-Logo"
                                 />
+                                </Link>
                             </div>
 
                             {/* LINKS */}
@@ -69,7 +73,7 @@ const Navbar = () => {
                                 </div>
 
                             </div>
-                            <button className='hidden lg:flex justify-end text-xl font-semibold py-4 px-6 lg:px-12 navbutton text-white'>Sign Up</button>
+                            <button className='hidden lg:flex justify-end text-xl font-semibold py-4 px-6 lg:px-12 navbutton text-white scaleEffect'>Sign Up</button>
                             {/* <Contactusform /> */}
                         </div>
 

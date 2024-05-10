@@ -17,7 +17,7 @@ const Simple = () => {
                     Pitchle facilitates the sharing of business
                     <br/> ideas and opportunities</p>
                 <div className="flex justify-center ">
-                    <button className='text-xl font-semibold text-white py-4 px-6 lg:px-12 navbutton'>View Details
+                    <button className='text-xl font-semibold text-white py-4 px-6 lg:px-12 navbutton scaleEffect'>View Details
                     </button>
                 </div>
             </div>

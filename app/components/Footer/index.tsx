@@ -39,11 +39,13 @@ const footer = () => {
           {/* COLUMN-1 */}
 
           <div className='col-span-6'>
+              <Link href={"/"}>
             <img
-              className="block h-20 w-44 mb-4"
+              className="block h-20 w-44 mb-4 scaleEffect hover:cursor-pointer"
               src={'/images/Logo/logo.png'}
               alt="Crypto-Logo"
             />
+              </Link>
             <h3 className='text-lightblue text-sm font-normal leading-9 mb-4 lg:mb-16'> At Pitchle, your success is our mission, A business starts from an idea.
                 Pitchle aims to be the most important business platform in the world regardless of its size, sector or geographic location.
             </h3>

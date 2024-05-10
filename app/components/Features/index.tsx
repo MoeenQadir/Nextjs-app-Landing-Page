@@ -46,7 +46,7 @@ const Features = () => {
                 <div>
                     <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-y-4 gap-x-2">
                         {featuresdata.map((items, i) => (
-                            <div className="bg-blue py-10 pr-12 pl-6 max-w-[350px] rounded-lg" key={i}>
+                            <div className="bg-blue scaleEffect py-10 pr-12 pl-6 max-w-[350px] rounded-lg" key={i}>
                                 <div className="rounded-full gg h-16 w-16 flex items-center justify-center mb-10">
                                     <Image src={items.imgSrc} alt={items.imgSrc} width={24} height={30} />
                                 </div>

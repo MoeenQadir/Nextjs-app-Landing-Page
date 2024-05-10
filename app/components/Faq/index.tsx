@@ -60,7 +60,7 @@ const Faq = () => {
                     </div>
 
                     {/* Column-2 */}
-                    <div className="mt-32">
+                    <div className="mt-32 scaleEffect veranimation">
                         <Image src={'/images/Faq/faq.svg'} alt="faq-image" width={941} height={379} />
                     </div>
 
