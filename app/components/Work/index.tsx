@@ -11,19 +11,19 @@ interface workdata {
 const workdata: workdata[] = [
     {
         imgSrc: '/images/Work/icon-one.svg',
-        heading: 'Create Account',
+        heading: 'Looking for a Partner',
         subheading: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry and this',
         hiddenpara: 'standard dummy text ever since the 1500s, when an unknownprinter took a galley of type and scrambled it to make a type specimen book. It has survived...',
     },
     {
         imgSrc: '/images/Work/icon-two.svg',
-        heading: 'Find your Credit',
+        heading: 'Looking for an investor',
         subheading: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry and this',
         hiddenpara: 'standard dummy text ever since the 1500s, when an unknownprinter took a galley of type and scrambled it to make a type specimen book. It has survived...',
     },
     {
         imgSrc: '/images/Work/icon-three.svg',
-        heading: 'Exchange Currency',
+        heading: 'Looking for a business',
         subheading: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry and this',
         hiddenpara: 'standard dummy text ever since the 1500s, when an unknownprinter took a galley of type and scrambled it to make a type specimen book. It has survived...',
     },
@@ -33,18 +33,18 @@ const workdata: workdata[] = [
 const Work = () => {
     return (
         <div>
-            <div className='mx-auto max-w-7xl mt-16 px-6 mb-20 relative'>
+            <div className='mx-auto max-w-7xl mt-16 px-6 mb-20 relative' id="exchange-section">
                 <div className="radial-bgone hidden lg:block"></div>
                 <div className='text-center mb-14'>
-                    <h3 className='text-offwhite text-3xl md:text-5xl font-bold mb-3'>How it work</h3>
-                    <p className='text-bluish md:text-lg font-normal leading-8'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br /> Lorem Ipsum has been the industry standard dummy text ever.</p>
+                    <h3 className='text-offwhite text-3xl md:text-5xl font-bold mb-3'>Introduction</h3>
+                    <p className='text-bluish md:text-lg font-normal leading-8'>Welcome to Pitchle! A unique and innovate social media that facilitates connections, <br /> through short video pitches of 30 seconds or up to 60 seconds.</p>
                 </div>
 
                 <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-y-20 gap-x-5 mt-32'>
 
                     {workdata.map((items, i) => (
                         <div className='card-b p-8' key={i}>
-                            <div className='work-img-bg rounded-full flex justify-center absolute p-6'>
+                            <div className='work-img-bg  rounded-full flex justify-center absolute p-6'>
                                 <Image src={items.imgSrc} alt={items.imgSrc} width={44} height={44} />
                             </div>
                             <div>

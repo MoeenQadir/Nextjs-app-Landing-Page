@@ -17,7 +17,7 @@ const products: ProductType[] = [
   {
     id: 1,
     section: "Useful Links",
-    link: ['Home', 'Exchange', 'Features', 'FAQ'],
+    link: ['Home', 'introduction', 'Features', 'FAQ'],
   }
 ]
 
@@ -40,11 +40,13 @@ const footer = () => {
 
           <div className='col-span-6'>
             <img
-              className="block h-12 w-20px mb-4"
-              src={'/images/Logo/logo.svg'}
+              className="block h-20 w-44 mb-4"
+              src={'/images/Logo/logo.png'}
               alt="Crypto-Logo"
             />
-            <h3 className='text-lightblue text-sm font-normal leading-9 mb-4 lg:mb-16'> Cryptocurrency is a type of virtual currency that uses cryptography to secure transactions that are digitally recorded on a distributed ledger, such as a blockchain.</h3>
+            <h3 className='text-lightblue text-sm font-normal leading-9 mb-4 lg:mb-16'> At Pitchle, your success is our mission, A business starts from an idea.
+                Pitchle aims to be the most important business platform in the world regardless of its size, sector or geographic location.
+            </h3>
             <div className='flex gap-4'>
               {socialLinks.map((items, i) => (
                 <Link href={items.href} key={i}><img src={items.imgsrc} alt={items.imgsrc} className='footer-icons' /></Link>
@@ -69,9 +71,9 @@ const footer = () => {
 
           <div className="col-span-4">
             <h3 className="text-white text-xl font-medium mb-9">Contact Us</h3>
-            <h4 className="text-offwhite text-sm font-normal mb-6 flex gap-2"><Image src={'/images/Footer/number.svg'} alt="number-icon" width={20} height={20} />(406) 555-012</h4>
-            <h4 className="text-offwhite text-sm font-normal mb-6 flex gap-2"><Image src={'/images/Footer/email.svg'} alt="email-icon" width={20} height={20} />tim.jennings@example.com</h4>
-            <h4 className="text-offwhite text-sm font-normal mb-6 flex gap-2"><Image src={'/images/Footer/address.svg'} alt="address-icon" width={20} height={20} />Elgin St. Celina, Delaware 10299</h4>
+            <h4 className="text-offwhite text-sm font-normal mb-6 flex gap-2"><Image src={'/images/Footer/number.svg'} alt="number-icon" width={20} height={20} />+33-655-569-169</h4>
+            <h4 className="text-offwhite text-sm font-normal mb-6 flex gap-2"><Image src={'/images/Footer/email.svg'} alt="email-icon" width={20} height={20} />contact@pitchle.</h4>
+            <h4 className="text-offwhite text-sm font-normal mb-6 flex gap-2"><Image src={'/images/Footer/address.svg'} alt="address-icon" width={20} height={20} />Paris - France, Delaware 10299</h4>
           </div>
 
         </div>
@@ -80,7 +82,7 @@ const footer = () => {
       {/* All Rights Reserved */}
 
       <div className='py-8 px-4 border-t border-t-lightblue'>
-        <h3 className='text-center text-offwhite'>@2023 - All Rights Reserved by <Link href="https://adminmart.com/" target="_blank"> Adminmart.com</Link></h3>
+        <h3 className='text-center text-offwhite'>@2024 - All Rights Reserved by <Link href="https://adminmart.com/" target="_blank"> Pitchle</Link></h3>
       </div>
 
     </div>

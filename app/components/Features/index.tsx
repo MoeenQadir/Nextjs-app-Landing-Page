@@ -10,37 +10,43 @@ interface featuresdata {
 const featuresdata: featuresdata[] = [
     {
         imgSrc: '/images/Features/featureOne.svg',
-        heading: 'Secure storage',
+        heading: 'Video Pitches',
         subheading: 'We lake data security and privacy very seriously',
     },
     {
         imgSrc: '/images/Features/featureTwo.svg',
-        heading: 'Free to use',
+        heading: 'Subscription Plans',
         subheading: 'Top notch crypto portfolio traking at no cost',
     },
     {
         imgSrc: '/images/Features/featureThree.svg',
-        heading: 'Real-time price data',
+        heading: 'Privacy and Security',
         subheading: 'Updating 24/7 using price data form the biggest exchanges',
     },
+    {
+        imgSrc: '/images/Features/featureThree.svg',
+        heading: 'Global Accessibility',
+        subheading: 'Updating 24/7 using price data form the biggest exchanges',
+    },
+
 ]
 
 const Features = () => {
     return (
-        <div className="mx-auto max-w-7xl my-0 md:my-40 pt-36 px-6 relative" id="features-section">
+        <div className="mx-auto max-w-7xl my-0 md:my-40 pt-36 px-2 relative" id="features-section">
             <div className="radial-bg hidden lg:block"></div>
-            <div className="grid lg:grid-cols-2 gap-x-4 gap-y-4">
+            <div className="grid lg:grid-cols-2 gap-y-4">
                 {/* Column-1 */}
                 <div>
                     <h3 className="feature-font text-lg font-semibold mb-4 text-center md:text-start">FEATURES</h3>
-                    <h2 className="text-offwhite text-3xl lg:text-5xl font-semibold leading-snug mb-6 text-center md:text-start">The most trusted cryptocurrency platform</h2>
+                    <h2 className="text-offwhite text-3xl lg:text-5xl font-semibold leading-snug mb-6 text-center md:text-start">Key Features and Benefits:</h2>
                     <p className="lg:text-lg font-normal text-bluish text-center md:text-start">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s.</p>
                 </div>
                 {/* Column-2 */}
                 <div>
-                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-4 lg:-mr-56">
+                    <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-y-4 gap-x-2">
                         {featuresdata.map((items, i) => (
-                            <div className="bg-blue py-10 pr-12 pl-6 rounded-lg" key={i}>
+                            <div className="bg-blue py-10 pr-12 pl-6 max-w-[350px] rounded-lg" key={i}>
                                 <div className="rounded-full gg h-16 w-16 flex items-center justify-center mb-10">
                                     <Image src={items.imgSrc} alt={items.imgSrc} width={24} height={30} />
                                 </div>

@@ -1,5 +1,3 @@
-
-
 const Simple = () => {
     return (
         <div className="simple-bg relative">
@@ -8,11 +6,19 @@ const Simple = () => {
             <div className="simplethree"></div>
             <div className="simplefour"></div>
             <div className="simplefive"></div>
-            <div className="mx-auto max-w-5xl py-24 px-6">
-                <h3 className="text-center text-offwhite text-3xl lg:text-5xl font-semibold mb-6">A simple, secure way to buy <br /> and sell cryptocurrency</h3>
-                <p className="text-center text-bluish text-lg font-normal mb-8">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum <br /> has been the industry</p>
+            <div className="mx-auto max-w-5xl py-16 px-6">
+                <h3 className="text-center text-offwhite text-3xl lg:text-5xl font-semibold mb-10">
+                    About Us </h3>
+                <h3 className="text-center text-offwhite text-3xl lg:text-5xl font-semibold mb-6">
+                    Empowering Connections, <br/> Driving Success </h3>
+                <p className="text-center text-bluish text-lg font-normal mb-8">Welcome to Pitchle, where opportunities
+                    in the business world come to life. Pitchle is more than just an app; it's a dynamic platform
+                    meticulously crafted for individuals and businesses alike, connecting dreamers, innovators, partners and investors worldwide.
+                    Pitchle facilitates the sharing of business
+                    <br/> ideas and opportunities</p>
                 <div className="flex justify-center ">
-                    <button className='text-xl font-semibold text-white py-4 px-6 lg:px-12 navbutton'>Connect Wallet</button>
+                    <button className='text-xl font-semibold text-white py-4 px-6 lg:px-12 navbutton'>View Details
+                    </button>
                 </div>
             </div>
             <div className="simplesix"></div>
