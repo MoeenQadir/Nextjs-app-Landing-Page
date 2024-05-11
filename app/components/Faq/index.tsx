@@ -26,7 +26,7 @@ const faqdata: faqdata[] = [
 
 const Faq = () => {
     return (
-        <div className="my-20 px-6" id="faq-section">
+        <div className="my-20 px-6 bg-gradient-to-r from-[#034023] to-[#021c11] lg:bg-none" id="faq-section">
             <h3 className="text-center text-3xl lg:text-5xl font-bold text-offwhite mb-3">Frequently Asked And Question</h3>
             <p className="text-center lg:text-lg font-normal text-bluish">
                 Pitchle is a cutting-edge video platform designed for seamless pitching experiences,<br/> revolutionizing how ideas are shared and presentations are delivered. <br/> </p>
@@ -60,8 +60,8 @@ const Faq = () => {
                     </div>
 
                     {/* Column-2 */}
-                    <div className="mt-32 scaleEffect veranimation">
-                        <Image src={'/images/Faq/faq.svg'} alt="faq-image" width={941} height={379} />
+                    <div className="scaleEffect veranimation flex justify-start  ">
+                        <Image src={'/images/Faq/faq-3.png'} alt="faq-image"  width={400} height={250} />
                     </div>
 
                 </div>

@@ -8,7 +8,6 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #03050d;
-    /* background-image: linear-gradient(90deg, #BD24DF 0%, #2D6ADE 97.15%); */
     background-image: linear-gradient(90deg, rgb(22, 226, 89) 0%, rgb(1, 190, 116) 97.15%);
     background-blend-mode: overlay;
     scroll-behavior: smooth;
@@ -16,6 +15,7 @@ body {
 
 html {
     scroll-behavior: smooth !important;
+
 }
 .container {
     scroll-behavior: smooth;
@@ -141,12 +141,6 @@ html:not([data-scroll="0"]) .navbar {
     transition: transform 430ms;
 }
 
-.card-b:hover {
-    filter: drop-shadow(0px 20px 5px rgba(0, 0, 0, 0.1));
-    transform: scale(1.05);
-    border: 1px solid #BD24DF;
-    height: 360px;
-}
 
 .hides {
     display: none;
@@ -433,19 +427,39 @@ th:last-child {
 /* Define styles for the dotted circle */
 .dotted-circle {
     position: relative;
-    display: inline-block;
 }
 
 .dotted-circle::before {
     content: '';
     position: absolute;
-    top: 9%;
-    left: 16%;
     transform: translate(-50%, -50%);
     width: 620px; /* Adjust the size of the circle */
     height: 620px; /* Adjust the size of the circle */
     border: 4px dotted #8c4acb; /* Adjust the border style and color */
     border-radius: 50%;
+}
+/* For mobile devices */
+@media screen and (max-width: 767px) {
+    .dotted-circle::before {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+/* For tablets (e.g., iPad) */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .dotted-circle::before {
+        width: 500px;
+        height: 500px;
+    }
+}
+
+/* For desktop and larger screens */
+@media screen and (min-width: 1200px) {
+    .dotted-circle::before {
+        width: 620px;
+        height: 620px;
+    }
 }
 
 /* Define animation for rotation */

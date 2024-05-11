@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Trade = () => {
     return (
-        <div className="mx-auto max-w-7xl mt-48 mb-16 px-2 relative">
+        <div className="mx-auto max-w-7xl mt-4 lg:mt-48 mb-16 px-2 relative bg-gradient-to-r from-[#034023] to-[#021c11] lg:bg-none">
             <div className="radial-bgone hidden lg:block"></div>
 
             <div className="grid lg:grid-cols-2 gap-x-14">
@@ -20,7 +20,7 @@ const Trade = () => {
                 {/* Column-2 */}
 
                 <div>
-                    <h3 className="text-3xl lg:text-5xl font-semibold text-offwhite mb-6 text-center sm:text-start">Pitchle Anywhere <br /> Any time</h3>
+                    <h3 className="text-3xl lg:text-5xl font-semibold mt-8 lg:mt-0 text-offwhite mb-6 text-center sm:text-start">Pitchle Anywhere <br /> Any time</h3>
                     <p className="lg:text-lg font-normal text-lightblue mb-16 text-center sm:text-start">Creating and sharing easy professional pitches. 		   Some tools you will easily use are: Visual timer, watermark, app messaging, template for pitches, music background, changing location, pitches categorized by sectors and location.</p>
                     <div className="flex justify-between">
                         <Image src={'/images/Trade/mac.svg'} className={"scaleEffect"} alt="macOS-image" width={61} height={105} />

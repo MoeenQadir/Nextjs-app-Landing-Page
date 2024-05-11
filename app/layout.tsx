@@ -8,7 +8,7 @@ export const metadata = {
   title: 'Pitchle Mobile App',
   description: 'A best experience for mobile app',
   icons: {
-    icon: '/logo.svg',
+    icon: '/logo.png',
   },
 }
 
@@ -20,9 +20,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+      <div className={"bg-gradient-to-r from-[#034023] to-[#021c11] lg:bg-none"}>
         <Navbar />
         {children}
         <Footer />
+      </div>
       </body>
     </html>
   )

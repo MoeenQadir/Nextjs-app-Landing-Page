@@ -28,9 +28,9 @@ const Navbar = () => {
     const [isOpen, setIsOpen] = React.useState(false);
 
     return (
-        <Disclosure as="nav" className="navbar">
+        <Disclosure as="nav" className="navbar mx-auto">
             <>
-                <div className="mx-auto max-w-7xl p-3 md:p-4 lg:px-8">
+                <div className="mx-auto max-w-7xl rounded-full p-3 md:p-4 lg:px-8">
                     <div className="relative flex h-12 sm:h-20 items-center">
                         <div className="flex flex-1 items-center sm:justify-between">
 
@@ -41,7 +41,7 @@ const Navbar = () => {
                                 <img
                                     className="block h-10 cursor-pointer w-20px scaleEffect lg:hidden"
                                     src={'/images/Logo/logo.png'}
-                                    alt="Crypto-Logo"
+                                    alt="Logo"
                                 />
                             </Link>
                                 <Link href={"/"}>

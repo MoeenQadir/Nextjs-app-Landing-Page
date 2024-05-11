@@ -31,9 +31,9 @@ const socialLinks: Social[] = [
 
 const footer = () => {
   return (
-    <div className=" relative">
+    <div className=" relative bg-gradient-to-r from-[#034023] to-[#021c11] lg:bg-none ">
       <div className="radial-bg hidden lg:block"></div>
-      <div className="mx-auto max-w-2xl mt-64 pb-16 px-4 sm:px-6 lg:max-w-7xl lg:px-8">
+      <div className="mx-auto max-w-2xl mt-8 pb-16 px-4 sm:px-6 lg:max-w-7xl lg:px-8">
         <div className="mt-24 grid grid-cols-1 gap-y-10 gap-x-16 sm:grid-cols-2 lg:grid-cols-12 xl:gap-x-8">
 
           {/* COLUMN-1 */}

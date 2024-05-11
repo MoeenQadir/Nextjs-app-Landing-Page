@@ -1,11 +1,11 @@
 const Simple = () => {
     return (
-        <div className="simple-bg relative">
-            <div className="simpleone"></div>
-            <div className="simpletwo"></div>
-            <div className="simplethree"></div>
-            <div className="simplefour"></div>
-            <div className="simplefive"></div>
+        <div className="simple-bg relative bg-gradient-to-r from-[#034023] to-[#021c11] lg:bg-none">
+            <div className="simpleone horianimation"></div>
+            <div className="simpletwo horianimation"></div>
+            <div className="simplethree horianimation" ></div>
+            <div className="simplefour horianimation"></div>
+            <div className="simplefive horianimation"></div>
             <div className="mx-auto max-w-5xl py-16 px-6">
                 <h3 className="text-center text-offwhite text-3xl lg:text-5xl font-semibold mb-10">
                     About Us </h3>
@@ -21,11 +21,11 @@ const Simple = () => {
                     </button>
                 </div>
             </div>
-            <div className="simplesix"></div>
-            <div className="simpleseven"></div>
-            <div className="simpleeight"></div>
-            <div className="simplenine"></div>
-            <div className="simpleten"></div>
+            <div className="simplesix horianimation"></div>
+            <div className="simpleseven horianimation"></div>
+            <div className="simpleeight horianimation"></div>
+            <div className="simplenine horianimation"></div>
+            <div className="simpleten horianimation" ></div>
         </div>
     )
 }

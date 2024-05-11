@@ -3,7 +3,7 @@ import React from 'react';
 const Pricing = () => {
     return (
         <>
-            <div className="xl:container m-auto px-6 py-20 md:px-12 lg:px-20">
+            <div className="xl:container m-auto px-6 py-20 md:px-12 lg:px-20 bg-gradient-to-r from-[#034023] to-[#021c11] lg:bg-none">
                 <div className="m-auto text-center lg:w-7/12">
                     <h2 className="text-2xl font-bold text-white md:text-5xl">
                         Pricing
@@ -28,7 +28,7 @@ const Pricing = () => {
               19
             </span>
                                 </div>
-                                <span className="absolute right-9 bottom-2 text-xl font-bold text-white">
+                                <span className="absolute right-5 lg:right-4 bottom-2 text-xl font-bold text-white">
             / Month
           </span>
                             </div>
